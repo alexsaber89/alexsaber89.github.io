@@ -1,2 +1,2 @@
 # Personal-Site
-## [Link](http://www.alexsaber89.github.io)
+## [Link](http://alexsaber89.github.io)
