@@ -15,7 +15,7 @@
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: white;
+    color: whitesmoke;
 }
 
 .navbar-default .navbar-nav>li>a:before {
@@ -25,7 +25,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: white;
+    background-color: whitesmoke;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
