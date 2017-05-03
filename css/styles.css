@@ -1,3 +1,26 @@
+.navbar {
+    background-color: #343536;
+    border-color: #1e1f20;
+    border-radius: 0%;
+    box-shadow: 0 0 20px #888888;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+    -o-transition:.2s;
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+    transition:.2s;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    font-size: 1.85em;
+}
+
 .body {
     text-align: center;
 }
