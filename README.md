@@ -1,2 +1,3 @@
 # Personal Site
-## [Link](http://alexsaber89.github.io)
+## [GitHub Page](http://alexsaber89.github.io)
+## [Personal Page](http://alexsaber.com)
