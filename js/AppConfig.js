@@ -3,22 +3,24 @@
 app.config(function($routeProvider) {
 	$routeProvider
   .when('/', {
-    templateUrl: 'partials/home.html',
+    templateUrl: '../partials/home.html',
     controller: 'HomeCtrl'
   })
-  .when('/dashboard', {
-    templateUrl: 'partials/dashboard.html',
-    controller: 'DashboardCtrl',
-		resolve: {isAuth}
+  .when('/about', {
+    templateUrl: '../partials/about.html',
+    controller: 'AboutCtrl'
   })
-  .when('/domains', {
-    templateUrl: 'partials/submittedDomains.html',
-    controller: 'SubmittedDomainsCtrl',
-		resolve: {isAuth}
+  .when('/portfolio', {
+    templateUrl: '../partials/portfolio.html',
+    controller: 'PortfolioCtrl'
   })
-  .when('/logout', {
-    templateUrl: 'partials/auth.html',
-    controller: 'AuthCtrl'
+  .when('/music', {
+    templateUrl: '../partials/music.html',
+    controller: 'MusicCtrl'
   })
-  .otherwise('/auth');
+  .when('/contact', {
+    templateUrl: '../partials/contact.html',
+    controller: 'ContactCtrl'
+  })
+  .otherwise('/');
 });

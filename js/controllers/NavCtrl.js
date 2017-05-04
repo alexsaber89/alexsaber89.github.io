@@ -3,23 +3,24 @@
 app.controller("NavCtrl", function($scope, $location) {
 
   $scope.showHome = () => {
+    console.log("showHome()");
     $location.url('/');
   };
 
   $scope.showAbout = () => {
-    $location.url('/domains');
+    $location.url('/about');
   };
 
   $scope.showPortfolio = () => {
-    $location.url('/logout');
+    $location.url('/portfolio');
   };
 
   $scope.showMusic = () => {
-    $location.url('/logout');
+    $location.url('/music');
   };
 
   $scope.showContact = () => {
-    $location.url('/logout');
+    $location.url('/contact');
   };
 
 });
