@@ -58,6 +58,14 @@
     height: 250px;
 }
 
+.socialImgs {
+    display: block;
+}
+
+.githubLogo, .linkedinLogo{
+    margin: 30px;
+}
+
 h1 {
     font-size: 4em;
 }
