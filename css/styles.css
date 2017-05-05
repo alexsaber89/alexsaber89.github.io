@@ -1,3 +1,28 @@
+/*************
+    GLOBAL
+*************/
+
+h1 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.homeBody {
+    text-align: center;
+}
+
+.homeBody h1, p {
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: bold;
+}
+
+/*************
+    NAVBAR
+*************/
+
 .navbar {
     background-color: #343536;
     border-color: #1e1f20;
@@ -39,13 +64,16 @@
     transform: scaleX(1);
 }
 
-.body {
-    text-align: center;
+.pointer {
+    cursor: pointer;
 }
 
-.body h1, p {
-    font-family: 'Proza Libre', sans-serif;
-    font-weight: bold;
+/*************
+    HOME
+*************/
+
+.homeWrapper {
+    margin-top: 80px;
 }
 
 .headshot {
@@ -54,10 +82,10 @@
     height: 250px;
 }
 
-h1 {
-    font-size: 4em;
+.socialImgs {
+    display: block;
 }
 
-p {
-    font-size: 1.5em;
+.githubLogo, .linkedinLogo{
+    margin: 30px;
 }
