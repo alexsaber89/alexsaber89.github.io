@@ -10,11 +10,11 @@ p {
     font-size: 1.5em;
 }
 
-.body {
+.homeBody {
     text-align: center;
 }
 
-.body h1, p {
+.homeBody h1, p {
     font-family: 'Proza Libre', sans-serif;
     font-weight: bold;
 }
