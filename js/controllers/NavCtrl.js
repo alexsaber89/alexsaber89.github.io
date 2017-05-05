@@ -3,7 +3,6 @@
 app.controller("NavCtrl", function($scope, $location) {
 
   $scope.showHome = () => {
-    console.log("showHome()");
     $location.url('/');
   };
 
