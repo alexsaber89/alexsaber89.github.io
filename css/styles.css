@@ -2,6 +2,10 @@
     GLOBAL
 *************/
 
+body {
+    font-family: 'Proza Libre', sans-serif;
+}
+
 h1 {
     font-size: 4em;
 }
@@ -15,7 +19,6 @@ p {
 }
 
 .homeBody h1, p {
-    font-family: 'Proza Libre', sans-serif;
     font-weight: bold;
 }
 
@@ -88,4 +91,16 @@ p {
 
 .githubLogo, .linkedinLogo{
     margin: 30px;
+}
+
+/*************
+    CONTACT
+*************/
+
+.contactInfo {
+    margin: 50px;
+}
+
+.glyphicon {
+    margin-right: 10px;
 }
