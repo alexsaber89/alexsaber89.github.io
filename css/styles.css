@@ -8,6 +8,7 @@ body {
 
 h1 {
     font-size: 4em;
+    margin-bottom: 50px;
 }
 
 p {
@@ -76,14 +77,32 @@ p {
     HOME
 *************/
 
+.titleName {
+    margin-bottom: 0;
+}
+
 .headshot {
     border-radius: 50%;
     width: 250px;
     height: 250px;
 }
 
-.githubLogo, .linkedinLogo{
+.githubLogo, .linkedinLogo {
     margin: 30px;
+}
+
+/*************
+    ABOUT
+*************/
+
+.bio {
+    margin: 0 50px;
+}
+
+.bio li {
+    list-style-type: none;
+    font-size: 1.5em;
+    line-height: 1.8em;
 }
 
 /*************
