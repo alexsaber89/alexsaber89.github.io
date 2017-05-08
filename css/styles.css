@@ -82,8 +82,22 @@ p {
     height: 250px;
 }
 
-.githubLogo, .linkedinLogo{
+.githubLogo, .linkedinLogo {
     margin: 30px;
+}
+
+/*************
+    ABOUT
+*************/
+
+.bio {
+    margin: 50px;
+}
+
+.bio li {
+    list-style-type: none;
+    font-size: 1.5em;
+    line-height: 1.8em;
 }
 
 /*************
