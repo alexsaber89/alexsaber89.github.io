@@ -14,11 +14,12 @@ p {
     font-size: 1.5em;
 }
 
-.homeBody {
+.partialWrapper {
     text-align: center;
+    margin-top: 80px;
 }
 
-.homeBody h1, p {
+.partialWrapper h1, p {
     font-weight: bold;
 }
 
@@ -75,18 +76,10 @@ p {
     HOME
 *************/
 
-.homeWrapper {
-    margin-top: 80px;
-}
-
 .headshot {
     border-radius: 50%;
     width: 250px;
     height: 250px;
-}
-
-.socialImgs {
-    display: block;
 }
 
 .githubLogo, .linkedinLogo{
