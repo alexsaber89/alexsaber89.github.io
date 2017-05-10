@@ -113,6 +113,15 @@ ul {
     CONTACT
 *************/
 
-.glyphicon {
+/*.glyphicon {
     margin-right: 10px;
+}*/
+
+.userForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner {
+    margin: 10px auto;
 }
