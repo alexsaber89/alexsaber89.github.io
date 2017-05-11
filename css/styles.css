@@ -121,7 +121,7 @@ ul {
 
 .portfolioWrapper ul {
     text-align: center;
-    margin-left: 30%;
+    margin-left: 8%;
 }
 
 .portfolioWrapper li {
@@ -129,6 +129,18 @@ ul {
     line-height: 1.8em;
     text-align: left;
     list-style-type: square;
+}
+
+.portfolioBody {
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolioImg {
+    border: 1px solid #343536;
+    display: inline-block;
+    width: 65%;
+    height: auto;
 }
 
 /*************
