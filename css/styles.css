@@ -117,6 +117,16 @@ ul {
     line-height: 1.8em;
 }
 
+.cohortImg {
+    width: 611.55px;
+    height: 267.5px;
+}
+
+.cohortCaption {
+    margin-top: 10px;
+    font-size: 1em; 
+}
+
 /*************
   PORTFOLIO
 *************/
