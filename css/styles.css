@@ -117,6 +117,10 @@ ul {
     line-height: 1.8em;
 }
 
+.cohortImgDiv {
+    margin-top: 32px;
+}
+
 .cohortImg {
     width: 611.55px;
     height: 267.5px;
