@@ -135,15 +135,20 @@ ul {
   PORTFOLIO
 *************/
 
-.portfolioWrapper p {
+.portfolio-item-summary {
     margin: 16px 0;
     font-weight: bold;
     font-size: 1.4em;
 }
 
+.portfolio-item-p {
+    font-size: 1em;
+}
+
 .portfolioWrapper ul {
     text-align: center;
-    margin-left: 8%;
+    margin: 0 auto;
+    width: 50%;
 }
 
 .portfolioWrapper li {
@@ -153,15 +158,15 @@ ul {
     list-style-type: disc;
 }
 
-.portfolioBody {
-    display: flex;
-    flex-direction: row;
+.portfolioBody div {
+    text-align: center;
 }
 
 .portfolioImg {
+    margin-top: 25px;
     border: 1px solid #343536;
     display: inline-block;
-    width: 65%;
+    width: 30%;
     height: auto;
 }
 

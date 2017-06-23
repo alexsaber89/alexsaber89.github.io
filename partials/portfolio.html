@@ -3,27 +3,51 @@
         <h1>Portfolio</h1>
     </div>
     <div class="portfolioWrapper">
-        <div>
-            <a href="/resume/Alex Saber - Resume.pdf" download="Alex Saber - Resume"><h2>Official Résumé</h2></a>
-            <a href="https://software-adoption-dashboard.firebaseapp.com" target="_blank"><h3>Software Adoption Dashboard</h3></a>
-            <p>This project aims to solve a real-world business case I encountered with a previous employer, utilizing Angular Charts for data visualization.</p>
+        <div class="portfolioItem">
+            <div>
+                <a href="/resume/Alex Saber - Resume.pdf" download="Alex Saber - Resume"><h2>Official Résumé</h2></a>
+                <a href="https://software-adoption-dashboard.firebaseapp.com" target="_blank"><h3>Software Adoption Dashboard</h3></a>
+                <p class="portfolio-item-summary">This project aims to solve a real-world business case I encountered with a previous employer, utilizing Angular Charts for data visualization.</p>
+            </div>
+            <div class="portfolioBody">
+                <div>
+                    <ul class="portfolioUl">
+                        <li>Tracks client companies where the user has pitched a new software offering</li>
+                        <li>Tracks customer company’s email domain (i.e. “@bestbuy.com”)</li>
+                        <li>Compares the companies the user has pitched to a constantly updating list of all Active Users of the software</li>
+                        <li>As more people sign up, the user will get credit if the registrant works at a company the user pitched</li>
+                        <li>Returns the number of Active Users, per company pitched</li>
+                        <li>The user's performance is measured against an individual quota and other sales reps in the company</li>
+                        <li>Future version of project will retrieve Active Users from a separate API</li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="https://software-adoption-dashboard.firebaseapp.com" target="_blank"><img class="portfolioImg" src="..\img\SoftwareAdoptionDashboard - Dashboard.PNG" /></a>
+                </div>
+            </div>
+            <hr>
         </div>
-        <div class="portfolioBody">
+        <div class="portfolioItem">
             <div>
-                <ul>
-                    <li>Tracks client companies where the user has pitched a new software offering</li>
-                    <li>Tracks customer company’s email domain (i.e. “@bestbuy.com”)</li>
-                    <li>Compares the companies the user has pitched to a constantly updating list of all Active Users of the software</li>
-                    <li>As more people sign up, the user will get credit if the registrant works at a company the user pitched</li>
-                    <li>Returns the number of Active Users, per company pitched</li>
-                    <li>The user's performance is measured against an individual quota and other sales reps in the company</li>
-                    <li>Future version of project will retrieve Active Users from a separate API</li>
-                </ul>
+                <a href="https://github.com/alexsaber89/Sales-Productivity-Tracker" target="_blank"><h3>Sales Productivity Tracker</h3></a>
+                <p>This project is also a real-world business case solution, which employs a C#/.NET back end and an AngularJS front end.</p>
             </div>
-            <div>
-                <a href="https://software-adoption-dashboard.firebaseapp.com" target="_blank"><img class="portfolioImg" src="..\img\SoftwareAdoptionDashboard - Dashboard.PNG" /></a>
+            <div class="portfolioBody">
+                <div>
+                    <ul>
+                        <li>Company portal which provides differing functionality for both managers and regular employees</li>
+                        <li>Sales employees can view past productivity and time off requests, as well as submit new requests to management</li>
+                        <li>Managers are given access to the manager portal via authentication, which displays all quarterly employee productivity in a table</li>
+                        <li>Quarterly productivity automatically recalculates, depending on which quarter the manager has selected</li>
+                        <li>Management can also view and approve all employee time off requests</li>
+                        <li>Future version will allow management to view quarterly productivity by year</li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="https://github.com/alexsaber89/Sales-Productivity-Tracker" target="_blank"><img class="portfolioImg" src="..\img\SalesProductivityTracker.JPG" /></a>
+                </div>
             </div>
+            <hr>
         </div>
     </div>
-    <hr>
 </div>
